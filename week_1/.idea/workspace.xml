@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="775ba51b-c237-4497-a91a-3bf4e7245b52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/list1.py" beforeDir="false" afterPath="$PROJECT_DIR$/list1.py" afterDir="false" />
+    <list default="true" id="ded1fee9-9088-433a-b8e5-a4bf9dc14bf1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/week_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/week_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +14,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
-  <component name="ProjectId" id="33gYTPRVmA9wMgiy40quGaRb8UZ" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="33hMXYYLgNFyx3OcEI8G5r5TuCF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,19 +26,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.list1.executor": "Run",
+    "Python.Calculator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="775ba51b-c237-4497-a91a-3bf4e7245b52" name="Changes" comment="" />
-      <created>1759740189900</created>
+      <changelist id="ded1fee9-9088-433a-b8e5-a4bf9dc14bf1" name="Changes" comment="" />
+      <created>1759760510409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1759740189900</updated>
+      <updated>1759760510409</updated>
     </task>
     <servers />
   </component>
