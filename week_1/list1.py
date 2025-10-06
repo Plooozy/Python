@@ -2,6 +2,8 @@
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
+import sys
+
 
 # Google's Python Class
 # http://code.google.com/edu/languages/google-python-class/
@@ -72,7 +74,17 @@ def front_x(words):
 # Hint: use a custom key= function to extract the last element form each tuple.
 def sort_last(tuples):
     # +++your code here+++
-    return
+    sorted_list = []
+    while tuples:
+        k = sys.maxsize
+        for tuple in tuples:
+            if tuple[-1] < k:
+                k = tuple[-1]
+        for tuple in tuples:
+            if tuple[-1] == k:
+                tuples.remove(tuple)
+                sorted_list.append(tuple)
+    return sorted_list
 
 
 # Simple provided test() function used in main() to print
