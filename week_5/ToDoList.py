@@ -5,20 +5,24 @@ def toDoList():
     print("2. Remove a task")
     print("3. View all tasks")
     print("4. Exit")
-    k = 0
+    task_list = []
     choice = int(input("Enter your choice: "))
-    if choice > 4 or choice < 1:
+    while choice > 4 or choice < 1:
         print("Wrong choice, choice must be between 1 and 4")
-        choice = int(input("Enter your choice: "))
+        choice = int(input("Enter your choice again: "))
+    if choice != 4:
         while choice != 4:
             if choice == 1:
-                task = input("Enter a task: ") # need to change this line
+                task = input("Enter a task: ")
+                task_list.append(task)
                 choice = int(input("Next choice: "))
             if choice == 2:
-                task = input("Remove a task by number: ") # need to find out how to change this
+                k = int(input("Remove a task by number: "))
+                task_list.remove(task_list[k - 1])
                 choice = int(input("Next choice: "))
             if choice == 3:
-                print(task)
+                for task in task_list:
+                    print(task)
                 choice = int(input("Next choice: "))
         else:
             print("Exiting")
