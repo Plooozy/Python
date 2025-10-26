@@ -16,16 +16,23 @@ def toDoList():
                 task = input("Enter a task: ")
                 task_list.append(task)
                 choice = int(input("Next choice: "))
-            if choice == 2:
+            elif choice == 2:
                 k = int(input("Remove a task by number: "))
-                task_list.remove(task_list[k - 1])
-                choice = int(input("Next choice: "))
-            if choice == 3:
-                for task in task_list:
-                    print(task)
+                while k > len(task_list) or k < 1:
+                    print("Invalid choice, try again")
+                    k = int(input("Remove a task by number: "))
+                else:
+                    task_list.remove(task_list[k - 1])
+                    choice = int(input("Next choice: "))
+            else:
+                for i in range(0, len(task_list)):
+                    print(str(i + 1) + ". " + task_list[i])
                 choice = int(input("Next choice: "))
         else:
-            print("Exiting")
+            print("Exiting...")
+            print("Final list is: ")
+            for i in range(0, len(task_list)):
+                print(str(i + 1) + ". " + task_list[i])
     else:
         print("Exiting")
 
