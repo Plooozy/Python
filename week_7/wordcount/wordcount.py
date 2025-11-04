@@ -35,6 +35,5 @@ def main():
     print_top("alice.txt")
 
 
-# вот это ключевая строка
 if __name__ == "__main__":
     main()
